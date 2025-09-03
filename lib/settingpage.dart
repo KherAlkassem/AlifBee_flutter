@@ -156,6 +156,6 @@ class Levels extends StatelessWidget {
             createLesson('P2', 'Lesson6', 'LessonName6', false, true),
           ],
         ));
-    // here add navigation bar
+    // here add new navigation bar
   }
 }
