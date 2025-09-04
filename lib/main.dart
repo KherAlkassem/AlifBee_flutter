@@ -1,5 +1,8 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:alifbee/settingpage.dart';
+import 'package:alifbee/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +17,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.grey),
-      home: Levels(),
+      // home: Levels(),
+      home: Login(),
     );
   }
 }
