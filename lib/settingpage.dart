@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:alifbee/levels.dart';
 
-class Levels extends StatefulWidget {
-  const Levels({super.key});
+
+class LevelsOld extends StatefulWidget {
+  const LevelsOld({super.key});
 
   @override
-  State<Levels> createState() => _LevelsState();
+  State<LevelsOld> createState() => _LevelsOldState();
 }
 
-class _LevelsState extends State<Levels> {
+class _LevelsOldState extends State<LevelsOld> {
   int _currentIndex = 0;
 
   Widget betweenLessons() {
